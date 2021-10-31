@@ -81,11 +81,11 @@ public class cal {
 		JButton btnNewButton = new JButton("ADDITION");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				int n,m,c;
-				n=Integer.parseInt(t1.getText());
-				m=Integer.parseInt(t2.getText());
+				float n,m,c;
+				m=Integer.parseInt(t1.getText());
+				n=Integer.parseInt(t2.getText());
 				c=m+n;
-				t3.setText(Integer.toString(c));
+				t3.setText(Float.toString(c));
 			}
 		});
 		btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 16));
@@ -95,11 +95,11 @@ public class cal {
 		JButton btnNewButton_1 = new JButton("SUBTRACTION");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				int n,m,c;
-				n=Integer.parseInt(t1.getText());
-				m=Integer.parseInt(t2.getText());
+				float n,m,c;
+				m=Integer.parseInt(t1.getText());
+				n=Integer.parseInt(t2.getText());
 				c=m-n;
-				t3.setText(Integer.toString(c));
+				t3.setText(Float.toString(c));
 			}
 		});
 		btnNewButton_1.setFont(new Font("Tahoma", Font.PLAIN, 16));
@@ -109,11 +109,11 @@ public class cal {
 		JButton btnNewButton_2 = new JButton("MULTIPLICATION");
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				int n,m,c;
-				n=Integer.parseInt(t1.getText());
-				m=Integer.parseInt(t2.getText());
+				float n,m,c;
+				m=Integer.parseInt(t1.getText());
+				n=Integer.parseInt(t2.getText());
 				c=m*n;
-				t3.setText(Integer.toString(c));
+				t3.setText(Float.toString(c));
 			}
 		});
 		btnNewButton_2.setFont(new Font("Tahoma", Font.PLAIN, 16));
@@ -123,11 +123,11 @@ public class cal {
 		JButton btnNewButton_3 = new JButton("DIVISION");
 		btnNewButton_3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				int n,m,c;
-				n=Integer.parseInt(t1.getText());
-				m=Integer.parseInt(t2.getText());
+				float n,m,c;
+				m=Integer.parseInt(t1.getText());
+				n=Integer.parseInt(t2.getText());
 				c=m/n;
-				t3.setText(Integer.toString(c));
+				t3.setText(Float.toString(c));
 			}
 		});
 		btnNewButton_3.setFont(new Font("Tahoma", Font.PLAIN, 16));
